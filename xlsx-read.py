@@ -1,7 +1,7 @@
 import openpyxl
 
 
-plan = openpyxl.load_workbook('D:/Box Sync/Documents/PyCharmProjects/openpyxl/example.xlsx', read_only=True)
+plan = openpyxl.load_workbook('example.xlsx', read_only=True)
 plan.get_sheet_by_name('Plan1')
 aba = plan.active
 
